@@ -18,6 +18,14 @@ constexpr size_t SplashScreenY = 274;
 constexpr size_t SplashScreenW = 210;
 constexpr size_t SplashScreenH = 172;
 
+
+/* Pretty sure this is the only file I had to change for the desired effect 
+of seeing only my mario icon during boot up. I must have entered incorrect hex data
+also as it is now replaced with nothing, and since I was replacing it with the same 
+image as the nintendo icon I will call it a success but if you want to actually change
+the image to something then look at the old data and refactor this into gangsta mario */
+
+
 constexpr u32 SplashScreen[] = { 0x000000FF, 0x000000FF, 0x000000FF, 0x000000FF, 0x000000FF,
 
 0x000000FF, 0x000000FF, 0x000000FF, 0x000000FF, 0x000000FF,
